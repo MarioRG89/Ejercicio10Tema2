@@ -1,0 +1,57 @@
+#container{
+    margin:auto;
+    text-align:center;
+   background-color: blue;
+   height: 100%;
+}
+#contenedoPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 60%;
+    
+    background-color: white;
+}
+body{
+    background-color: slateblue;
+}
+#primerContenedor{
+    margin: auto;
+    display: flex;
+}
+#segundoContenedor {
+    margin: auto;
+    display: flex;
+    flex: 0 1 60%;
+    align-content: flex-end;
+}
+#tercerContenedor{
+    margin: auto;
+    display: flex;
+}
+.media {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.media .content {
+    margin: auto;
+    flex: 1;
+    padding: 10px;
+}
+.parrafo{
+    background-color: grey;
+}
+.media2 {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: grey;
+}
+.media2 .content2 {
+    margin: auto;
+    flex: 1;
+    padding: 10px;
+}
